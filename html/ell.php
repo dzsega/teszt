@@ -1,6 +1,6 @@
 <?php
 $tomb=array("auto", "motor", "laptop", "telefon");
-$p=readline("Jelszó?: ");
+$p=readline("Új tétel: ");
 for ($i=0; $i<(count($tomb)); $i++){//szabadon választható tömb hossz miatt
     if ($tomb[$i]==$p){
         echo("Denied\n");
